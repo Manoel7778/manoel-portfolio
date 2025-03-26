@@ -1,0 +1,18 @@
+{
+    "IntroSection": {
+        "hello_im": "Hello, my name is",
+        "name": "Weverton Manoel",
+        "short_intro": "I develop digital solutions.",
+        "download_cv": "Download CV",
+        "blog": "Blog"
+    },
+    "SectionName": {
+        "about": "About me",
+        "experience": "Experience",
+        "projects": "Projects",
+        "skills": "Skills"
+    },
+    "AboutSection": {
+        "desc": "RPA developer specialized in Automation Edge software, with experience in process automation using Python and VBA. I work full-time in the city of Nova Olímpia, Mato Grosso, Brazil, contributing to operational efficiency by implementing innovative solutions and integrating systems to optimize workflows. My skills include Python, TypeScript, JavaScript, React.js, SQL, and expertise in Robotic Process Automation (RPA). When I'm not at the computer, I enjoy cooking, watching movies, and playing chess."
+    }
+}

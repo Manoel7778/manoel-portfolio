@@ -1,0 +1,18 @@
+{
+    "IntroSection": {
+        "hello_im": "Olá, meu nome é",
+        "name": "Weverton Manoel",
+        "short_intro": "Desenvolvo soluções digitais.",
+        "download_cv": "Baixar CV",
+        "blog": "Blog"
+    },
+    "SectionName": {
+        "about": "Sobre mim",
+        "experience": "Experiência",
+        "projects": "Projetos",
+        "skills": "Habilidades"
+    },
+    "AboutSection": {
+        "desc": "Desenvolvedor de RPA especializado no software Automation Edge, com experiência em automação de processos utilizando Python e VBA. Atuo em tempo integral na cidade de Nova Olímpia, Mato Grosso, Brasil, contribuindo para a eficiência operacional ao implementar soluções inovadoras e integrar sistemas para otimizar fluxos de trabalho. Minhas competências incluem Python, TypeScript, JavaScript, React.js, SQL e expertise em Automação Robótica de Processos (RPA). Quando não estou no computador, gosto de cozinhar, assistir filmes e jogar xadrez."
+    }
+}
