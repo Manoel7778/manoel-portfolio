@@ -108,16 +108,16 @@ export default function Intro() {
             </h2>
           </div>
         </motion.div>
-        <p>{t("short_intro")}</p>
+        <p className="text-xl pt-6  sm:text-5xl lg:text-3xl">{t("short_intro")}</p>
         {activeLocale === 'pt' ? (
           <>
-            <p>
+            <p className=" text-xl  sm:text-5xl lg:text-3xl">
               Meu foco é{" "}
               <span className="italic font-bold">React (Next.js)</span> e <span className="italic font-bold">RPA</span>.
             </p>
           </>) : (
           <>
-            <p>
+            <p className=" text-xl  sm:text-4xl lg:text-3xl">
               My focus is on <span className="italic font-bold">React (Next.js)</span> and <span className="italic font-bold">RPA</span>.
             </p>
 
@@ -126,7 +126,7 @@ export default function Intro() {
       </motion.h1>
 
       <motion.div
-        className="flex flex-col sm:flex-row items-center justify-center  gap-3 px-4 text-lg font-medium"
+        className="flex flex-wrap sm:flex-row items-center justify-center  gap-3 px-4 text-lg font-medium"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{

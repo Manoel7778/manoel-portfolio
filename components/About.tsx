@@ -23,7 +23,7 @@ export default function About() {
     >
       <SectionHeading>{sectionLan("about")}</SectionHeading>
       {activeLocale == "en" ? (
-        <div className="flex flex-col gap-2">
+        <div className="flex flex-col gap-4 max-sm:px-4">
           <p><strong>I am an RPA developer specialized in <span className="emoji">Automation Edge 🤖</span>, with experience in process automation using <span className="emoji">Python 🐍</span> and <span className="emoji">VBA</span>.</strong></p>
           <p>I have skills in <span className="emoji">TypeScript 💻</span>, <span className="emoji">JavaScript ⚡</span>, <span className="emoji">React.js ⚛️</span>, <span className="emoji">SQL 📊</span>, and system integration to optimize workflows <span className="emoji">🔄</span>.</p>
           <p>Currently, I work in <strong><span className="emoji">Nova Olímpia, Mato Grosso 🏙️</span></strong>, implementing innovative solutions for operational efficiency.</p>
@@ -35,7 +35,7 @@ export default function About() {
           <p>I am passionate about technology and automation <span className="emoji">💡</span>, always seeking new solutions to optimize processes and deliver efficient results <span className="emoji">🚀</span>.</p>
         </div>
       ) : (
-        <div className="flex flex-col gap-2">
+        <div className="flex flex-col gap-4 max-sm:px-4">
           <p><strong>Sou desenvolvedor de RPA especializado em <span className="emoji">Automation Edge 🤖</span>, com experiência na automação de processos usando <span className="emoji">Python 🐍</span> e <span className="emoji">VBA</span>.</strong></p>
           <p>Tenho habilidades em <span className="emoji">TypeScript 💻</span>, <span className="emoji">JavaScript ⚡</span>, <span className="emoji">React.js ⚛️</span>, <span className="emoji">SQL 📊</span> e integração de sistemas para otimizar fluxos de trabalho <span className="emoji">🔄</span>.</p>
           <p>Atualmente, atuo em <strong><span className="emoji">Nova Olímpia, Mato Grosso 🏙️</span></strong>, implementando soluções inovadoras para eficiência operacional.</p>

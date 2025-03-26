@@ -152,4 +152,5 @@ export const skillsData = [
     "Framer Motion",
     "AutomationEdge",
     "SQL",
+    "Fluig"
 ] 
