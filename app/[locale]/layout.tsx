@@ -6,6 +6,7 @@ import { ActionSectionContextProvider } from "@/context/action-section-context"
 import Footer from "@/components/Footer"
 import ThemeSwitch from "@/components/ThemeTwich"
 // import { usePathname } from "next/navigation"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import LanguageSwitch from "@/components/LanguageSwitch"
 import { NextIntlClientProvider, useMessages } from "next-intl"
 import WidgetWrapper from "@/components/WidgetWrapper"
@@ -32,6 +33,7 @@ export default function RootLayout({
 
         <NextIntlClientProvider messages={messages}>
           <ThemeContextProvider>
+            <SpeedInsights />
             <ActionSectionContextProvider>
               <Header />
               {children}
